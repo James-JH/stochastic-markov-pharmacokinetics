@@ -31,13 +31,9 @@ This project simulates these dynamics and evaluates different dosing strategies 
 - Constant absorption (ka) and elimination (ke) rates across individuals  
 
 **ODEs:**
-```math
-dI = -ka * I
-
-dB = ka * I - ke * B
-
-dU = ke * B
-```
+- `dI = -ka * I`
+- `dB = ka * I - ke * B`
+- `dU = ke * B`
 
 ### Extended Model (With Liver)
 - Adds a liver compartment: Intestine → Liver → Bloodstream → Urine  
