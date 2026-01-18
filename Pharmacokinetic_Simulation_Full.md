@@ -31,9 +31,11 @@ This project simulates these dynamics and evaluates different dosing strategies 
 - Constant absorption (ka) and elimination (ke) rates across individuals  
 
 **ODEs:**
-\[
-dI = -k_a \cdot I, \quad dB = k_a \cdot I - k_e \cdot B, \quad dU = k_e \cdot B
-\]
+```math
+dI = -ka * I
+dB = ka * I - ke * B
+dU = ke * B
+```
 
 ### Extended Model (With Liver)
 - Adds a liver compartment: Intestine → Liver → Bloodstream → Urine  
@@ -49,9 +51,9 @@ dI = -k_a \cdot I, \quad dB = k_a \cdot I - k_e \cdot B, \quad dU = k_e \cdot B
 ### Gillespie Algorithm
 - Simulates molecule-level stochastic events  
 - Propensities:
-  - Intestine → Liver: \(a_1 = k_a \cdot I\)  
-  - Liver → Bloodstream: \(a_2 = k_m \cdot L\)  
-  - Bloodstream → Urine: \(a_3 = k_e \cdot B\)  
+  - Intestine → Liver: `a1 = ka * I`  
+  - Liver → Bloodstream: `a2 = km * L`  
+  - Bloodstream → Urine: `a3 = ke * B`  
 - Time until next event: exponential distribution  
 - Event selection: weighted random choice based on propensities  
 
