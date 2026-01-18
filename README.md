@@ -1,7 +1,5 @@
 # Pharmacokinetic Drug Simulation
 
-[![Python](https://img.shields.io/badge/python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)  
-
 Simulates drug absorption, liver metabolism, and elimination to evaluate optimal dosing strategies across a population. Demonstrates how patient variability affects drug exposure and highlights the importance of personalised medicine.
 
 ---
@@ -47,7 +45,6 @@ Simulates drug absorption, liver metabolism, and elimination to evaluate optimal
 ## Skills Demonstrated
 - Stochastic and deterministic modelling  
 - Numerical simulation and integration (AUC)  
-- Python programming for scientific computing  
 - Data visualisation and interpretation  
 - Population-level modelling for personalised medicine  
 
