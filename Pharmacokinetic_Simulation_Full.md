@@ -33,7 +33,9 @@ This project simulates these dynamics and evaluates different dosing strategies 
 **ODEs:**
 ```math
 dI = -ka * I
+
 dB = ka * I - ke * B
+
 dU = ke * B
 ```
 
