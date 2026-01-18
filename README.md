@@ -70,3 +70,6 @@ pip install -r requirements.txt
 
 **Run simulations and generate visualisations:**
 python examples/run_simulations.py
+```
+## Author
+Developed by: @James-JH
