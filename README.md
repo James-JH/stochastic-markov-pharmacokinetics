@@ -57,16 +57,6 @@ Simulates drug absorption, liver metabolism, and elimination to evaluate optimal
 
 ---
 
-## Usage
-
-**Clone the repository and install dependencies:**
-```bash
-git clone https://github.com/yourusername/Stochastic-Markov-Pharmacokinetics.git
-cd Stochastic-Markov-Pharmacokinetics
-pip install -r requirements.txt
-
-**Run simulations and generate visualisations:**
-python examples/run_simulations.py
-```
 ## Author
-Developed by: @James-JH
+Developed by:
+@James-JH 01/2026
